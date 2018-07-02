@@ -1,6 +1,6 @@
 import firebase from 'firebase'
 import { firebaseMutations, firebaseAction } from 'vuexfire'
-import firebaseConfig from '../../firebase.config.js'
+import firebaseConfig from '@/firebaseConfig/firebase.config.js'
 let config = firebaseConfig
 let app = firebase.initializeApp(config)
 let db = app.database()
